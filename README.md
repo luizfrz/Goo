@@ -1,6 +1,6 @@
 # Goo
-O site foi criado como uma plataforma simples para compartilhamento gratuito de links.
-No entanto, está projetado para ser flexível e pode passar por alterações no futuro. 
-Planejamos adicionar funcionalidades, como uma área de login e um formulário de sugestões, que poderão ser implementadas conforme necessário.
+Site serve de forma que usuário veja o portifólio da empresa, que nesse caso refere-se goo e conheça, assim futuramente peça orçamento para projetos.
+
+> pode sofrer alteração, que possa afetar design. mas isso não vai direto experiência do usuário 
 
 
