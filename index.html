@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/goo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <script src="js/goo.js"></script>
+    <script src="/script/goo.js"></script>
     <title>Goo</title>
 </head>
 <body>
-    <!--Acho que colocar nome doido em tanta div não boa ideia -->
+
     <div class="title">
         <h1>Goo</h1>
     </div>
+
     <div class="backgrounf">
         <h1 class="name">Nosso Trabalhos</h1>    
-    <div class="owl-carousel">
-        <div><img id="imgwi" src="fotos/monalisa.jpg"  ></div>
-        <div><img id="imgwi" src="fotos/camisa.jpg" ></div>
-        <div><img id="imgwi" src="fotos/monalisa.jpg"></div>
-        <div><img id="imgwi" src="fotos/camisa.jpg"></div>
+    <!--Carrouselprincipal / Carrouselfilho-->
+    <div class="Carrouselprincipal">
+        <div class="Carrouselfilho">
+            <img src="fotos/camisa.jpg" alt="">
+            <img src="fotos/camisa.jpg" alt="">
+            <img src="fotos/camisa.jpg" alt="">
+            <img src="fotos/monalisa.jpg" height="450px">
+            <img src="fotos/monalisa.jpg" height="450px">
+            <img src="fotos/monalisa.jpg" height="450px">
+        </div>
+        <div class="Carrouselbutton">
+            <button onclick="moverSlide(-1)">&#9664;</button>
+            <button onclick="moverSlide(1)">&#9654;</button>
+        </div>
     </div>
+
     </div>
+
+    <!--Feedback images-->
     <h2 id="avaliar">Avaliações</h2>
     <div class="dividir">
     <img id="bordar" src="https://s2-g1.glbimg.com/nL-rfYlatkkWHQyyHmv3NNTwjIQ=/0x0:720x1280/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/P/S/foFbb2QQWmBXmienfBNA/2888007c-bf3e-498b-a291-af74aa490fb6.jpg" width="200px">
@@ -39,14 +48,15 @@
    <a href="https://www.instagram.com/realkous?igsh=MWJtZ2d6Z2gya3Nqcw=="> <img id="rede1" src="fotos/rede.png" alt="" width="90px"> </a>
    <a> <img id="rede2" src="fotos/rede3.png" alt="" width="90px"> </a>
 </div>
-<div class="teste4">
+<div class="sobreGo">
+    <h2>Conheca a <strong class="gooh2">GOO</strong></h2>
 <details >
     <summary>
-        Sobre Goo
+        Resumo dos nossos Trabalhos
     </summary>
 
     <P>Na Goo, somos uma equipe vibrante e apaixonada por design que transforma visões criativas em realidades impactantes. Como freelancers, oferecemos flexibilidade, inovação e um toque pessoal que só uma equipe dedicada pode oferecer. Nossa expertise abrange uma ampla gama de disciplinas de design, incluindo branding, design gráfico, web design e UX/UI.</P>
-
+    <p>Podemos criar sua logo</p>
 
 </details>
 </div>
