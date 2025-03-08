@@ -7,10 +7,10 @@
     animation: gooh2 infinite 5s;
 }
 @keyframes gooh2 {
-    50%{
+    10%{
         color: white;
     }
-    100%{
+    20%{
         color: orange;
     }
 }
@@ -79,6 +79,7 @@ body{
     color: black;
     width: 15%;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
@@ -141,43 +142,21 @@ body{
         width: 300px;
     }
 }
-/* Class name   
-carrousel
-- Carrouselprincipal
-- Carrouselfilho
-- Carrouselbutton
-*/
-.Carrouselprincipal {
-    width: 80%;
-    margin: 20px auto;
-    overflow: hidden;
+#imagem{
+    height:50%;
+    margin-left:40%;
+    display: block;
+    -webkit-transition: margin-left 500ms ease-in;
+    -moz-transition: margin-left 500ms ease-in;
+    -o-transition: margin-left 500ms ease-in;
+    transition: margin-left 500ms ease-in;
+}
+#container{
+    overflow:hidden;
     position: relative;
-    border-radius: 10px;
+    width:350px;
+    height:200px;
 }
-.Carrouselfilho {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-.Carrouselfilho img {
-    width: 100%;
-    max-width: 100%;
-}
-.Carrouselbutton {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-.Carrouselbutton button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.Carrouselbutton button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.ativa{
+    margin-left:0%;
 }
