@@ -3,8 +3,14 @@
     margin-top: auto;
     font-family: FONTETESTE;
 }
-.gooh2{
-    animation: gooh2 infinite 5s;
+h1{
+    width: 100%;
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background-color: orange;
 }
 @keyframes gooh2 {
     10%{
@@ -14,19 +20,13 @@
         color: orange;
     }
 }
+.gooh2{
+    animation: gooh2 infinite 5s;
+}
 .title{
     background-color: #000000;
     margin-right: -8px;
     margin-left: -10px;
-}
-h1{
-    width: 100%;
-    color: orange;
-    text-align: center;
-    font-size: 50px;
-}
-body{
-    background-color: orange;
 }
 @media (min-width:600px) {
     .h1{
